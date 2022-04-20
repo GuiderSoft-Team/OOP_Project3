@@ -2,6 +2,7 @@ package day035;
 
 public class MainApp {
     public static void main(String[] args) {
+
         LazerYazici yazici=new LazerYazici(50,-1000,true);
 //        System.out.println(yazici.tonerEkle(20));
 //        System.out.println(yazici.tonerEkle(-200));
