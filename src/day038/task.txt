@@ -1,0 +1,11 @@
+Task:
+ - Ikili isminde bir sınıf tasarlayınız.
+ - x ve y isminde iki adet int üyesi olmalı
+ - getter/setter ve constructor'ları tanımlanmalı
+ - toString metodu uygun şekilde override edilmeli
+ - Comparable interface'ini implemente etmeli
+ - Sıralamayı iki değerin ortalamasına göre yapmalı. (x+y)/2 tam sayı bölme hatasına dikkat
+ - main metodu içinde {} ile 5 elemanlı bir dizi (Ikili tipinden) oluşturulacak.
+ - Arrays.toString ile yazdırılacak
+ - Arrays.sort ile sıralanacak
+ - Tekrar yazdırılacak.
