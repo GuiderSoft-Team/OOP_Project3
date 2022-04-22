@@ -1,0 +1,34 @@
+        /*
+            Kalıtım:
+                class A {
+                }
+                class B extends A{
+
+                }
+            Sarmalama:
+                private: Sadece ilgili sınıfın içinden erişime izin var
+                public : Dünya'da tasarlanmış herhangi bir sınıfın içinden erişime izin var
+                protected: Kendi package'ının içinden ve sınıfın alt sınıfları içerisinden erişim izni var.
+                (default): Kendi package'ının içinden erişime izin var.
+                class A{
+                    private int x;
+                    public void setX(int x){
+                        if (0<x&&x<=100){
+                            this.x=x;
+                        }
+                    }
+                    public int getX(){
+                        return x;
+                    }
+
+                }
+            Çok biçimlilik:
+                1. overload: imzaları farklı birden fazla metot aynı isimde yazılabilir.
+                Toplama işlemi:
+                public int topla(int x,int y){
+                    return x+y;
+                }
+                2. override: Ata sınıfta tanımlanmış bir metodun geçersiz kılınarak
+                yeniden yazılmasıdır.
+
+         */

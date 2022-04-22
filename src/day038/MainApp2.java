@@ -1,5 +1,7 @@
 package day038;
 
+import day039.oys.A;
+
 import java.util.Arrays;
 
 
@@ -21,5 +23,10 @@ public class MainApp2 {
         Arrays.sort(ikililer);
         System.out.println(Arrays.toString(ikililer));
 
+        A a1=new A();
+
+        a1.y=15;//public olduğu için erişim var
+        //a1.z=5; protected olduğundan başka packe içerisinden erişilemiyor.
+        //a1.t=7; (default) erişim belirteci olduğundan erişim yoktur
     }
 }
